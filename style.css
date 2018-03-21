@@ -99,7 +99,6 @@ body {
 	border-width: 1px;
 	border-color: black;
 	width: 100%;
-	height: 10%;
 }
 
 .vfootermenucontainer {
@@ -126,11 +125,9 @@ body {
 	background-color: #333;
 	color: white;
 	font-size: 20px;
-	font-weight: bold;
 	margin-bottom: 0;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-right: 5px;
+	margin-top: 16px;
+	padding-right: 10px;
 	width: 300px;
 	text-align: right;
 }
@@ -139,10 +136,13 @@ body {
 	font-size: 30px;
 	font-weight: 400;
 	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 16px;
 }
 
 .vcounterp span {
-	color: red;
+	color: #83a137;
 	font-weight: 600;
 }
 
@@ -158,4 +158,33 @@ body {
 
 .vphone {
 	padding-left: 15px;
+}
+
+.vnews {
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+
+.vmenulist {
+	display: flex;
+	margin: 0;
+	padding: 10px 0 10px 5px;
+}
+
+.vmenulist li {
+	width: 80px;
+	list-style: none;
+	text-decoration: underline;
+}
+
+.vmenulist a {
+	color: #333;
+}
+
+.vmenulist:hover a {
+	color: #333;
+}
+
+.vmenulist:hover li {
+	text-decoration: none;
 }
