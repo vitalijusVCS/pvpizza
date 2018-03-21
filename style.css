@@ -63,7 +63,6 @@ body {
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
-	height: 200px;
 	padding-left: 50px;
 	padding-right: 50px;
 }
@@ -73,7 +72,7 @@ body {
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
-	height: 200px;
+	
 }
 
 .vfootercontainer1 {
@@ -118,13 +117,44 @@ body {
 
 .vphoneorder {
 	color: #333;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: bold;
 }
 
 .vphoneorderlabel {
 	background-color: #333;
 	color: white;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: bold;
+	margin-bottom: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	width: 300px;
+	text-align: right;
+}
+
+.vcounterp {
+	font-size: 30px;
+	font-weight: 400;
+	padding-left: 15px;
+}
+
+.vcounterp span {
+	color: red;
+	font-weight: 600;
+}
+
+.vemaillabel {
+	font-weight: 400;
+	font-size: 18px;
+	padding-left: 15px;
+}
+
+.vemail {
+	width: 40%;
+}
+
+.vphone {
+	padding-left: 15px;
 }
