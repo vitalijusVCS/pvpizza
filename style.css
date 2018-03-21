@@ -58,8 +58,7 @@ body {
 .nav-link{
 	color: black;
 }
-
-/* header container styles start */
+/* footer */
 .vfootercontainer1, .vfootercontainer2, .vfootercontainer3 {
 	width: 100%;
 	border-style: solid;
@@ -95,8 +94,6 @@ body {
 	border-color: black;
 	height: 200px;
 }
-<<<<<<< HEAD
-=======
 
 .vfootermenu {
 	border-style: solid;
@@ -116,7 +113,6 @@ body {
 
 }
 
-<<<<<<< HEAD
 .vcounterp, .vnews {
 	background-color: white;
 }
