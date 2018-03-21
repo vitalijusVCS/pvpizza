@@ -232,3 +232,6 @@ iframe {
 	margin-left: -4px;
 }
 
+#extrasmallframe {
+	display: none;
+}
