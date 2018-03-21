@@ -14,17 +14,42 @@ body {
 .logo a, .social a{
   color: black;
   text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+.social a:hover{
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+.logo a:hover{
+	text-decoration: none;
+	list-style: none;
+	color: white;
 }
 .social ul{
 	display: flex;
 	justify-content: center;
 }
-.social li{
+.social li {
   list-style: none;
-	padding-left: 15px;
+	text-decoration: none;
+	margin: 10px;
+}
+
+.social li:first-child{
+	background-color: #4267B2;
+}
+.social li:nth-child(2){
+	background-color: #1DA1F2;
+}
+.social li:nth-child(3){
+	background-color: #E13E61;
 }
 .logo{
 	border: 1px solid;
+	display: flex;
+	align-items: center;
 }
 .nav-item{
 	padding-right: 45px;
