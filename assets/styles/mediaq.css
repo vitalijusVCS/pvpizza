@@ -14,6 +14,11 @@
 	#mediumframe {
 		display: block;
 	}
+
+	.vsubmit {
+		font-size: 21px;
+		margin-bottom: -4px;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -31,5 +36,51 @@
 
 	#smallframe {
 		display: block;
+	}
+
+	.vsubmit {
+		font-size: 18px;
+		margin-bottom: -3.5px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#extrasmallframe {
+		display: block;
+		margin-bottom: 0;
+		width: auto;
+		margin-left: 5%;
+	}
+
+	#smallframe {
+		display: none;
+	}
+
+	.vfootermenucontainer, .vfootercontainer2 {
+		flex-direction: column;
+	}
+
+	.vfbcontainer, .vcontactcontainer, .vfooterlogo, .vfootertitle {
+		width: 100%;
+		text-align: center;
+	}
+
+	.vfootercontainer1, .vfootercontainer2, .vfootercontainer3 {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.vphone {
+		float: none;
+		padding: 0;
+	}
+
+	.vphoneorderlabel {
+		width: 100%;
+		text-align: center;
+	}
+
+	#u_0_0 ._2p3a {
+		width: 100%;
 	}
 }
