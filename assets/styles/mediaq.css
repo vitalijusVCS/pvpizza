@@ -1,0 +1,35 @@
+@media screen and (max-width: 1024px) {
+	footer {
+		font-size: 7px;
+	}
+
+	.vphoneorderlabel {
+		width: 210px;
+	}
+
+	#largeframe {
+		display: none;
+	}
+
+	#mediumframe {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	footer {
+		font-size: 5.5px;
+	}
+
+	.vphoneorderlabel {
+		width: 165px;
+	}
+
+	#mediumframe {
+		display: none;
+	}
+
+	#smallframe {
+		display: block;
+	}
+}

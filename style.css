@@ -81,7 +81,7 @@ footer {
 
 .vfootercontainer2 {
 	display: flex;
-	background-color: #83a137;
+	background-color: #a50e0e;
 }
 
 .vfooterlogo, .vfootertitle {
@@ -130,8 +130,8 @@ footer {
 }
 
 .vcounterp span {
-	color: #83a137;
-	font-weight: 600;
+	color: #a50e0e;
+	font-weight: 700;
 }
 
 .vemaillabel {
@@ -142,10 +142,12 @@ footer {
 
 .vemail {
 	width: 40%;
+	font-size: 1.5em;
 }
 
 .vphone {
 	padding-left: 15px;
+	float: right;
 }
 
 .vnews {
@@ -167,6 +169,7 @@ footer {
 
 .vmenulist a {
 	color: #333;
+	font-size: 1.5em;
 }
 
 .vmenulist:hover a {
@@ -181,6 +184,7 @@ iframe {
 	margin-top: 16px;
 	margin-bottom: 11px;
 	background-color: white;
+	width: 90%;
 }
 
 .fa-utensils, .fa-clock {
@@ -212,3 +216,19 @@ iframe {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+#mediumframe {
+	display: none;
+}
+
+#smallframe {
+	display: none;
+}
+
+.vsubmit {
+	font-size: 2.8em;
+	font-weight: 900;
+	margin-bottom: -4.5px;
+	margin-left: -4px;
+}
+
