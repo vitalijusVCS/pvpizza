@@ -60,22 +60,18 @@ body {
 	color: black;
 }
 /* footer */
+
+footer {
+	font-size: 10px;
+}
 .vfootercontainer1, .vfootercontainer2, .vfootercontainer3 {
 	width: 100%;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	height: 200px;
 	padding-left: 50px;
 	padding-right: 50px;
 }
 
 .vfbcontainer, .vcontactcontainer {
-	width: 50%;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	height: 200px;
+	width: 50%;	
 }
 
 .vfootercontainer1 {
@@ -86,28 +82,18 @@ body {
 
 .vfootercontainer2 {
 	display: flex;
+	background-color: #a50e0e;
 }
 
 .vfooterlogo, .vfootertitle {
 	width: 50%;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	height: 200px;
 }
 
 .vfootermenu {
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 	width: 100%;
-	height: 10%;
 }
 
 .vfootermenucontainer {
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 	width: 100%;
 	height: 90%;
 	display: flex;
@@ -120,13 +106,130 @@ body {
 
 .vphoneorder {
 	color: #333;
-	font-size: 30px;
+	font-size: 4em;
 	font-weight: bold;
 }
 
 .vphoneorderlabel {
 	background-color: #333;
 	color: white;
-	font-size: 15px;
-	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 0;
+	margin-top: 16px;
+	padding-right: 10px;
+	width: 300px;
+	text-align: right;
 }
+
+.vcounterp {
+	font-size: 3em;
+	font-weight: 400;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 16px;
+}
+
+.vcounterp span {
+	color: #a50e0e;
+	font-weight: 700;
+}
+
+.vemaillabel {
+	font-weight: 400;
+	font-size: 1.8em;
+	padding-left: 15px;
+}
+
+.vemail {
+	width: 40%;
+	font-size: 1.5em;
+}
+
+.vphone {
+	padding-left: 15px;
+	float: right;
+}
+
+.vnews {
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+
+.vmenulist {
+	display: flex;
+	margin: 0;
+	padding: 10px 0 10px 5px;
+}
+
+.vmenulist li {
+	width: 80px;
+	list-style: none;
+	text-decoration: underline;
+}
+
+.vmenulist a {
+	color: #333;
+	font-size: 1.5em;
+}
+
+.vmenulist:hover a {
+	color: #333;
+}
+
+.vmenulist:hover li {
+	text-decoration: none;
+}
+
+iframe {
+	margin-top: 16px;
+	margin-bottom: 11px;
+	background-color: white;
+	width: 90%;
+}
+
+.fa-utensils, .fa-clock {
+	font-size: 10em;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.vtryfont {
+	font-family: 'Painting With Chocolate';
+	font-size: 6em;
+	color: white;
+	margin: 0;
+}
+
+.vfooterlogo, .vfootertitle {
+	display: flex;
+}
+
+.vfootercontainer3 {
+	background-color: #333;
+	color: white;
+}
+
+.vfootercontainer3 p {
+	margin: 0;
+	font-size: 1.5em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#mediumframe {
+	display: none;
+}
+
+#smallframe {
+	display: none;
+}
+
+.vsubmit {
+	font-size: 2.8em;
+	font-weight: 900;
+	margin-bottom: -4.5px;
+	margin-left: -4px;
+}
+
