@@ -129,6 +129,8 @@ header{
   border: none;
   background: none;
   display: none;
+	width: 100%;
+	background-color: #282828;
 }
 span.bar {
   background-color: black;
