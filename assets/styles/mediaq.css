@@ -4,13 +4,16 @@
     cursor: pointer;
     /* padding: 10px;
     height: 50%; */
-  }
-	.open{
-		display: block;
-	}
+ 	}
+	
 	.dws-menu{
 		display: none;
 	}
+
+	.open{
+		display: block;
+	}
+	
 	.navigation-pcontainer > ul{
 		display: flex;
 		flex-direction: column;
