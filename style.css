@@ -16,6 +16,7 @@ body {
 }
 .navigation-pcontainer > ul{
 	display: flex;
+	flex-wrap: wrap;
 }
 .navigation-pcontainer li{
 	position: relative;
@@ -28,9 +29,8 @@ body {
 .navigation-pcontainer li ul{
 	display: none;
 	position: absolute;
-	padding: 8px;
 	min-width: 124px;
-	z-index: 10px;
+	z-index: 10;
 }
 .navigation-pcontainer li > ul li{
 	border-bottom: 1px solid white;
@@ -41,7 +41,6 @@ body {
 	padding: 5px;
 }
 .navigation-pcontainer li:hover{
-	background-color: #282828;
 	transition: 0.3s;
 	color: white;
 	box-shadow: 1px 5px 18px -5px black;
@@ -49,7 +48,7 @@ body {
 }
 .navigation-pcontainer li > ul{
 	background-color: #82a137;
-
+	padding: 10px;
 }
 .navigation-pcontainer li:hover > ul{
 	display: block;
@@ -156,14 +155,15 @@ header{
 }
 .dws-menu > ul li {
 	position: relative;
+	border-left: 1px solid white;
 	border-right: 1px solid white;
 }
-.dws-menu > ul li:first-child{
+/* .dws-menu > ul li:first-child{
 	border-left: 1px solid white;
 }
 .dws-menu > ul li:last-child{
 	border-right: 1px solid white;
-}
+} */
 .dws-menu li ul{
 	position: absolute;
 	list-style: none;
@@ -359,22 +359,23 @@ iframe {
 #extrasmallframe {
 	display: none;
 }
-<<<<<<< HEAD
-@media only screen and (max-width: 800px){
-	.navbar button{
-		background-color: #82a137!important;
-	}
-	.navbar-toggler-icon{
-		border-radius: 5px;
-		background-color: white!important;
-	}
-	.nav-item:hover>ul{
-		display: none;
-	}
-	/* .dws-menu > ul{
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
-	} */
-}
 
+@media only screen and (max-width: 600px){
+	.navigation-pcontainer > ul{
+		display: flex;
+		flex-direction: column;
+		padding-left: 0;
+	}
+	.social ul{
+		padding-left: 0;
+	}
+	.dws-menu ul{
+		display: flex;
+		flex-direction: column;
+	}
+	.dws-menu li > ul li{
+		right: -160px;
+		top: 0;
+		z-index: 10;
+	}
+}
