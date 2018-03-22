@@ -17,6 +17,7 @@ body {
 .navigation-pcontainer > ul{
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 0;
 }
 .navigation-pcontainer li{
 	position: relative;
@@ -94,6 +95,7 @@ header{
 .social ul{
 	display: flex;
 	justify-content: center;
+	margin-bottom: 0;
 }
 .social li {
   list-style: none;
