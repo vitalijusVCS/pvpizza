@@ -123,6 +123,20 @@ header{
 /* header container styles end */
 
 /* main menu styles */
+
+.burger {
+  border: none;
+  background: none;
+  display: none;
+}
+span.bar {
+  background-color: black;
+  margin: 3px 0;
+  border-radius: 15px;
+  width: 30px;
+  height: 5px;
+  display: block;
+}
 .dws-menu *{
 	margin: 0;
 	padding: 0;
