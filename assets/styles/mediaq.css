@@ -44,7 +44,7 @@
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
 	#extrasmallframe {
 		display: block;
 		margin-bottom: 0;
@@ -56,12 +56,12 @@
 		display: none;
 	}
 
-	#vtestcont2 {
-		display: flex;
-		flex-direction: column;
+	footer .vfootercontainer1 #vtestcont2 {
+		display: flex !important;
+		flex-direction: column !important;
 	}
 
-	#vtestcont {
+	footer #vtestcont {
 		display: flex !important;
 		flex-direction: column !important;
 	}
