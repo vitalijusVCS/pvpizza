@@ -61,7 +61,7 @@ header{
 .mainnav-pcontainer{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 }
 .header-pcontainer{
 	display: flex;
