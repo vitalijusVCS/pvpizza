@@ -63,6 +63,7 @@ header{
 	flex-direction: column;
 	justify-content: center;
 }
+
 .header-pcontainer{
 	display: flex;
 	flex-wrap: wrap;
@@ -118,7 +119,7 @@ header{
 	color: black;
 }
 .carousel-inner{
-	height: 25rem;
+	height: 23rem;
 }
 /* header container styles end */
 
