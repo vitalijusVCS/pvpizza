@@ -5,6 +5,9 @@
     /* padding: 10px;
     height: 50%; */
   }
+	.open{
+		display: block;
+	}
 	.dws-menu{
 		display: none;
 	}
@@ -14,17 +17,11 @@
 		padding-left: 0;
 		font-size: 25px;
 	}
-	.social ul{
-		padding-left: 0;
-	}
+
 	.dws-menu ul{
 		display: flex;
 		flex-direction: column;
 	}
-	.open{
-		display: block;
-	}
-
 	.dws-menu li > ul li{
 		right: -160px;
 		top: 0;
