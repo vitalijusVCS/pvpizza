@@ -107,11 +107,63 @@ header{
 .nav-link{
 	color: black;
 }
-/* header container styles end */
 .carousel-inner{
 	height: 25rem;
 }
+/* header container styles end */
 
+/* main menu styles */
+.dws-menu *{
+	margin: 0;
+	padding: 0;
+
+}
+.dws-menu > ul{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	width: 100%;
+	background-color: #282828;
+}
+.dws-menu > ul li:hover {
+	background-color: #82a137;
+	transition: 0,3s;
+}
+.dws-menu > ul li a {
+	display: block;
+	padding: 15px 30px 15px 40px;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+}
+.dws-menu > ul li {
+	position: relative;
+	border-right: 1px solid white;
+}
+.dws-menu > ul li:first-child{
+	border-left: 1px solid white;
+}
+.dws-menu > ul li:last-child{
+	border-right: 1px solid white;
+}
+.dws-menu li ul{
+	position: absolute;
+	list-style: none;
+	max-width: 150px;
+	display: none;
+	background-color: #282828;
+}
+.dws-menu li > ul li {
+	border: 1px solid white;
+}
+.dws-menu li > ul li a{
+	padding: 9px;
+	text-transform: none;
+}
+.dws-menu li:hover > ul{
+	display: block;
+}
 /* footer */
 
 footer {
@@ -290,3 +342,22 @@ iframe {
 #extrasmallframe {
 	display: none;
 }
+<<<<<<< HEAD
+@media only screen and (max-width: 800px){
+	.navbar button{
+		background-color: #82a137!important;
+	}
+	.navbar-toggler-icon{
+		border-radius: 5px;
+		background-color: white!important;
+	}
+	.nav-item:hover>ul{
+		display: none;
+	}
+}
+
+
+
+>>>>>>> 0ec8eea93c786475b92c7b9b4016560fb57dca53
+=======
+>>>>>>> 6552ab94a85c7e91f921ac34d49f3eb551918e41
