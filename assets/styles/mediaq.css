@@ -41,6 +41,15 @@
 		font-size: 21px;
 		margin-bottom: -4px;
 	}
+
+	.vcartcontent, .vcarttitle {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.vleftsidebar {
+		width: 800px;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -63,6 +72,19 @@
 	.vsubmit {
 		font-size: 18px;
 		margin-bottom: -3.5px;
+	}
+
+	.vitemmenulist img {
+		width: 200px;
+		height: 200px;
+	}
+
+	.vitemmenulist li {
+		width: 200px;
+	}
+
+	.vitembtn {
+		margin-left: 20%;
 	}
 }
 
@@ -112,6 +134,26 @@
 	.vfooterlogo, .vfootertitle {
 		justify-content: center;
 	}
+
+	.bottom-pcontainer {
+		flex-direction: column;
+	}
+
+	.vleftsidebar {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.vitemmenulist {
+		justify-content: space-between;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.vmenucontainer {
+		padding-right: 10px;
+	}
+
 }
 
 @media screen and (max-width: 500px) {
