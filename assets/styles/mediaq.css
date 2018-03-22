@@ -44,24 +44,25 @@
 	}
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	#extrasmallframe {
 		display: block;
 		margin-bottom: 0;
 		width: auto;
-		margin-left: 5%;
+		margin-left: 30%;
 	}
 
 	#smallframe {
 		display: none;
 	}
 
-	footer .vfootercontainer1 #vtestcont2 {
+	#vtestcont2 {
 		display: flex !important;
 		flex-direction: column !important;
+		text-align: center;
 	}
 
-	footer #vtestcont {
+	#vtestcont {
 		display: flex !important;
 		flex-direction: column !important;
 	}
@@ -86,4 +87,28 @@
 		text-align: center;
 	}
 
+	.vfooterlogo, .vfootertitle {
+		justify-content: center;
+	}
 }
+
+@media screen and (max-width: 500px) {
+	#extrasmallframe {
+		margin-left: 20%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#extrasmallframe {
+		margin-left: 15%;
+}
+
+@media screen and (max-width: 400px) {
+	#extrasmallframe {
+		margin-left: 10%;
+}
+
+@media screen and (max-width: 370px) {
+	#extrasmallframe {
+		margin-left: 5%;
+} 
