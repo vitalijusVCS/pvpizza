@@ -1,4 +1,23 @@
 @media screen and (max-width: 1024px) {
+	.navigation-pcontainer > ul{
+		display: flex;
+		flex-direction: column;
+		padding-left: 0;
+		font-size: 30px;
+	}
+	.social ul{
+		padding-left: 0;
+	}
+	.dws-menu ul{
+		display: flex;
+		flex-direction: column;
+	}
+	.dws-menu li > ul li{
+		right: -160px;
+		top: 0;
+		z-index: 10;
+	}
+
 	footer {
 		font-size: 7px;
 	}
@@ -111,4 +130,4 @@
 @media screen and (max-width: 370px) {
 	#extrasmallframe {
 		margin-left: 5%;
-} 
+}

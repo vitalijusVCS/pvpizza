@@ -358,25 +358,6 @@ iframe {
 	display: none;
 }
 
-@media only screen and (max-width: 600px){
-	.navigation-pcontainer > ul{
-		display: flex;
-		flex-direction: column;
-		padding-left: 0;
-	}
-	.social ul{
-		padding-left: 0;
-	}
-	.dws-menu ul{
-		display: flex;
-		flex-direction: column;
-	}
-	.dws-menu li > ul li{
-		right: -160px;
-		top: 0;
-		z-index: 10;
-	}
-}
 
 /* products */
 
@@ -403,7 +384,7 @@ iframe {
 	text-decoration: none;
 	list-style: none;
 	margin-left: 10px;
-	box-shadow: 10px 5px #333; 
+	box-shadow: 10px 5px #333;
 }
 
 .vitemtitle, .vitemdescription, .vitemprice {
