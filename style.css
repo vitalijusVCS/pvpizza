@@ -337,12 +337,12 @@ iframe {
 	margin-bottom: -4.5px;
 	margin-left: -4px;
 }
-<<<<<<< HEAD
-=======
+
 
 #extrasmallframe {
 	display: none;
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 800px){
 	.navbar button{
 		background-color: #82a137!important;
@@ -359,3 +359,5 @@ iframe {
 
 
 >>>>>>> 0ec8eea93c786475b92c7b9b4016560fb57dca53
+=======
+>>>>>>> 6552ab94a85c7e91f921ac34d49f3eb551918e41
