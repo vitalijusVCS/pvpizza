@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1300px){
 	.navigation-pcontainer > ul{
 		display: flex;
 		flex-direction: column;
@@ -17,6 +17,9 @@
 		top: 0;
 		z-index: 10;
 	}
+}
+
+@media screen and (max-width: 1024px) {
 
 	footer {
 		font-size: 7px;
