@@ -56,7 +56,12 @@
 		display: none;
 	}
 
-	.vfootermenucontainer, .vfootercontainer2 {
+	#vtestcont2 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#vtestcont {
 		display: flex;
 		flex-direction: column;
 	}
