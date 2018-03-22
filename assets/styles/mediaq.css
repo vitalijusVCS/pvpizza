@@ -1,4 +1,7 @@
 @media screen and (max-width: 1300px){
+	.carousel-inner{
+		height: 12rem;
+	}
 	.burger {
     display: block;
     cursor: pointer;
