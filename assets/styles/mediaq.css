@@ -109,7 +109,11 @@
 		display: block;
 		margin-bottom: 0;
 		width: auto;
-		margin-left: 30%;
+		margin: 16px auto;
+	}
+
+	footer {
+		font-size: 8px;
 	}
 
 	#smallframe {
@@ -172,23 +176,3 @@
 
 }
 
-@media screen and (max-width: 500px) {
-	#extrasmallframe {
-		margin-left: 20%;
-	}
-}
-
-@media screen and (max-width: 450px) {
-	#extrasmallframe {
-		margin-left: 15%;
-}
-
-@media screen and (max-width: 400px) {
-	#extrasmallframe {
-		margin-left: 10%;
-}
-
-@media screen and (max-width: 370px) {
-	#extrasmallframe {
-		margin-left: 5%;
-}
