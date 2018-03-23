@@ -1,5 +1,11 @@
 @media screen and (max-width: 1300px){
-	
+	.pslider-discription p{
+		font-size: 25px;
+		top: 70px;
+		display: flex;
+		justify-content: center;
+
+	}
 	.carousel-inner{
 		height: 12rem;
 	}
@@ -200,9 +206,8 @@
 	}
 
 	.vitemdescription {
-		white-space: nowrap; 
+		white-space: nowrap;
 	    overflow: hidden;
 	    text-overflow: ellipsis;
 	}
 }
-
