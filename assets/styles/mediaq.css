@@ -1,4 +1,5 @@
 @media screen and (max-width: 1300px){
+
 	.carousel-inner{
 		height: 12rem;
 	}
@@ -8,15 +9,16 @@
     /* padding: 10px;
     height: 50%; */
  	}
-	
+	span.bar{
+		width: 50px;
+    height: 8px;
+	}
 	.dws-menu{
 		display: none;
 	}
-
 	.open{
 		display: block;
 	}
-	
 	.navigation-pcontainer > ul{
 		display: flex;
 		flex-direction: column;
@@ -29,9 +31,12 @@
 		flex-direction: column;
 	}
 	.dws-menu li > ul li{
-		right: -160px;
+		right: -110px;
 		top: 0;
 		z-index: 10;
+	}
+	.dws-menu > ul li a{
+		padding: 15px 30px 15px 10px;
 	}
 }
 
