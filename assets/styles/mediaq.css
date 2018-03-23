@@ -19,25 +19,34 @@
 	.open{
 		display: block;
 	}
+	.navigation-pcontainer{
+		display: flex;
+		justify-content: center;
+	}
 	.navigation-pcontainer > ul{
 		display: flex;
 		/* flex-direction: column; */
 		padding-left: 0;
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.dws-menu ul{
 		display: flex;
 		flex-direction: column;
 	}
+	
 	.dws-menu li > ul li{
-		right: -110px;
+		right: -120px;
 		top: 0;
 		z-index: 10;
+		background-color: #282828;
 	}
+
 	.dws-menu > ul li a{
 		padding: 15px 30px 15px 10px;
+		font-size: 20px;
 	}
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -196,3 +205,4 @@
 	    text-overflow: ellipsis;
 	}
 }
+
