@@ -27,7 +27,7 @@
 		display: flex;
 		/* flex-direction: column; */
 		padding-left: 0;
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.dws-menu ul{
@@ -184,4 +184,3 @@
 	}
 
 }
-
