@@ -67,11 +67,6 @@
 		display: block;
 	}
 
-	.vsubmit {
-		font-size: 21px;
-		margin-bottom: -4px;
-	}
-
 	.vcartcontent, .vcarttitle {
 		margin-left: 10px;
 		margin-right: 10px;
@@ -84,11 +79,11 @@
 
 @media screen and (max-width: 800px) {
 	footer {
-		font-size: 5.5px;
+		font-size: 7px;
 	}
 
 	.vphoneorderlabel {
-		width: 165px;
+		width: 210px;
 	}
 
 	#mediumframe {
@@ -97,11 +92,6 @@
 
 	#smallframe {
 		display: block;
-	}
-
-	.vsubmit {
-		font-size: 18px;
-		margin-bottom: -3.5px;
 	}
 
 	.vitemmenulist img {
@@ -189,3 +179,30 @@
 	}
 
 }
+
+@media screen and (max-width: 411px) {
+	.vtryfont {
+		font-size: 4em;
+	}
+
+	.vitemmenulist img {
+		width: 160px;
+		height: 160px;
+	}
+
+	.vitemmenulist li {
+		width: 160px;
+		margin-left: 0;
+	}
+
+	.vitembtn {
+		margin-left: 11%;
+	}
+
+	.vitemdescription {
+		white-space: nowrap; 
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	}
+}
+

@@ -367,10 +367,13 @@ iframe {
 }
 
 .vsubmit {
-	font-size: 2.8em;
+	font-size: 1.5em;
 	font-weight: 900;
 	margin-bottom: -4.5px;
 	margin-left: -4px;
+	color: white;
+	background-color: black;
+	border-color: black;
 }
 
 
