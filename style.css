@@ -135,6 +135,11 @@ header{
 .carousel-inner{
 	height: 23rem;
 }
+
+.vsliderfont {
+	font-family: 'Your Star';
+	color: #ffcc00;
+}
 /* header container styles end */
 
 /* main menu styles */
