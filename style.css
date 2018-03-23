@@ -498,7 +498,7 @@ iframe {
 	color: #82a137;
 }
 .pleft-side h3{
-	padding-left: 5px;
+	padding-left: 3px;
 	color: #82a137;
 }
 .pleft-side a:hover{
@@ -506,13 +506,10 @@ iframe {
 	text-decoration: none;
 }
 .vleftsidebar {
-<<<<<<< HEAD
-	width: 250px;
+	width: 250px!important;
 	height: 200px;
-=======
 	width: 20%;
 	height: 236px;
->>>>>>> f1c56bcef9c803fcae44d7458eebfab0e77fb276
 	margin-left: 50px;
 	margin-top: 20px;
 	border: solid 1px #e1e1e1;
@@ -554,4 +551,3 @@ iframe {
 	margin: 0 35px;
 	padding: 20px 0;
 }
-
