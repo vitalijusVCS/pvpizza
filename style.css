@@ -65,10 +65,11 @@ header{
 	justify-content: center;
 }
 .pslider-discription p{
+	font-family: 'Vtks Perfecta';
 	position: absolute;
   top: 110px;
   letter-spacing: 3px;
-  font-size: 70px;
+  font-size: 90px;
 	color: white;
 }
 .mainnav-pcontainer{
