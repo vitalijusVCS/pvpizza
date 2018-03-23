@@ -167,6 +167,7 @@ span.bar {
 	list-style: none;
 	width: 100%;
 	background-color: #282828;
+	box-shadow: 1px 5px 18px -5px black;
 }
 .dws-menu > ul li:hover {
 	background-color: #82a137;
