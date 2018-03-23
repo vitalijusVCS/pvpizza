@@ -431,6 +431,7 @@ iframe {
 
 .vmenucontainer {
 	padding-right: 50px;
+	width: 80%;
 }
 
 .vitemmenulist {
@@ -505,8 +506,13 @@ iframe {
 	text-decoration: none;
 }
 .vleftsidebar {
+<<<<<<< HEAD
 	width: 250px;
 	height: 200px;
+=======
+	width: 20%;
+	height: 236px;
+>>>>>>> f1c56bcef9c803fcae44d7458eebfab0e77fb276
 	margin-left: 50px;
 	margin-top: 20px;
 	border: solid 1px #e1e1e1;
@@ -520,6 +526,7 @@ iframe {
 
 .bottom-pcontainer {
 	display: flex;
+	width: 100%;
 }
 
 .vitemprice span {
@@ -547,3 +554,4 @@ iframe {
 	margin: 0 35px;
 	padding: 20px 0;
 }
+

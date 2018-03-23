@@ -79,7 +79,7 @@
 	}
 
 	.vleftsidebar {
-		width: 800px;
+		width: 25%
 	}
 }
 
@@ -111,6 +111,10 @@
 
 	.vitembtn {
 		margin-left: 20%;
+	}
+
+	.vleftsidebar {
+		width: 30%;
 	}
 }
 
