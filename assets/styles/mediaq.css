@@ -123,7 +123,11 @@
 	}
 
 	.vleftsidebar {
-		width: 30%;
+		width: 200px !important;
+	}
+
+	.vsearchinput {
+		width: 154px;
 	}
 }
 
@@ -182,9 +186,23 @@
 		flex-direction: column;
 	}
 
+	.vmenucontainer {
+		order: 1;
+		width: 100%;
+	}
+
+	.vleft {
+		order: 2;
+	}
+
 	.vleftsidebar {
 		margin-left: 0;
-		width: 100%;
+		width: 100% !important;
+	}
+
+	.pleft-side {
+		margin-left: 0;
+		height: 100px;
 	}
 
 	.vitemmenulist {
@@ -222,5 +240,17 @@
 		white-space: nowrap;
 	    overflow: hidden;
 	    text-overflow: ellipsis;
+	}
+
+	.header-pcontainer {
+		display: flex;
+		flex-direction: column;
+		margin-left: 0;
+		margin-right: 0;
+		align-items: center;
+	}
+
+	.mainnav-pcontainer ul {
+		justify-content: space-around;
 	}
 }
