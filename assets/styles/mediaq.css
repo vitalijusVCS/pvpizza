@@ -1,4 +1,8 @@
 @media screen and (max-width: 1300px){
+
+.header-pcontainer{
+	display: flex;
+}
 	.pslider-discription p{
 		font-size: 35px;
 		top: 70px;
