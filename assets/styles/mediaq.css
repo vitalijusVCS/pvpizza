@@ -52,7 +52,16 @@
 		padding: 15px 30px 15px 10px;
 		font-size: 20px;
 	}
+	.vitemmenulist li{
+		width: 200px;
+	}
 
+  .vitemmenulist img {
+    width: 200px;
+    height: 200px;
+}
+.vitembtn{
+	margin-left: 35px;
 }
 
 @media screen and (max-width: 1024px) {
