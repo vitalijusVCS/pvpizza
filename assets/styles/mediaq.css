@@ -27,13 +27,13 @@
 	}
 	.navigation-pcontainer{
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
 	}
 	.navigation-pcontainer > ul{
 		display: flex;
-		/* flex-direction: column; */
-		padding-left: 0;
-		font-size: 20px;
+	  flex-direction: column-reverse;
+	  padding-left: 0;
+	  font-size: 20px
 	}
 
 	.dws-menu ul{
