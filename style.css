@@ -173,7 +173,7 @@ header{
   border: none;
   background: none;
   display: none;
-	width: 100%;
+	/* width: 100%; */
 	background-color: #282828;
 	font-size: 30px;
 }

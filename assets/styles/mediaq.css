@@ -11,6 +11,20 @@
 	.carousel-inner{
 		height: 12rem;
 	}
+	.burger-container{
+		display: flex;
+		background-color: #282828;
+		color: white;
+	}
+	.burger-menu {
+		display: flex;
+		align-items: center;
+		font-size: 30px;
+
+	}
+	.burger-menu p{
+		margin-bottom: 0;
+	}
 	.burger {
     display: block;
     cursor: pointer;
